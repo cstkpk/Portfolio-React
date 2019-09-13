@@ -1,0 +1,25 @@
+/* Image formatting */
+.img-about {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+ /* Formatting index text */
+ .index-text {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+/* Media tag for phone */
+@media screen and (max-width: 640px) {
+    .img-about {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .index-text {
+        text-align: justify;
+    }
+}
