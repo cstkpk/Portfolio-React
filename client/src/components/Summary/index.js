@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Section, Row, Col, Divider, MediaBox } from "react-materialize";
-import * as images from "../../images/assets.js";
+import images from "../../images/assets.js";
 import "./style.css";
 // import "../../assets/js/materialize.min.js";
 
