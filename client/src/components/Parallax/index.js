@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-materialize";
-import images from "../../images/assets.js";
+import images from "../../assets/images";
 
 function Parallax1() {
     return(

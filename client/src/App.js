@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigationbar from "./components/Navbar";
+import FooterComp from "./components/FooterComp";
 import About from "./pages/About.js";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           {/* <Route component={NoMatch} /> */}
         </Switch>
       </div>
+      <FooterComp />
     </Router>
   );
 }
