@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigationbar from "./components/Navbar";
 import FooterComp from "./components/FooterComp";
 import About from "./pages/About.js";
+import Contact from "./pages/Contact.js";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={About} />
           {/* <Route exact path="/portfolio" component={Results} /> */}
+          <Route exact path="/contact" component={Contact} />
           {/* <Route component={NoMatch} /> */}
         </Switch>
       </div>
