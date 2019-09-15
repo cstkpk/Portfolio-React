@@ -1,15 +1,15 @@
 import React from "react";
-import ContactInfo from "../components/ContactInfo";
+import PortfolioLinks from "../components/PortfolioLinks";
 import { Parallax1, Parallax2 } from "../components/Parallax";
 
-function Contact() {
+function Portfolio() {
     return (
         <>
             <Parallax1 />
-            <ContactInfo />
+            <PortfolioLinks />
             <Parallax2 />
         </>
     );
 };
 
-export default Contact;
+export default Portfolio;
