@@ -10,9 +10,9 @@ export default function FooterComp() {
             <div>
                 <h5>Connect</h5>
                 <ul>
-                    <li><a class="white-text" href="https://github.com/cstkpk" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a class="white-text" href="https://www.linkedin.com/in/cara-sunberg" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    <li><a class="white-text" href="mailto:cnsunberg@gmail.com">Email</a></li>
+                    <li><a className="white-text" href="https://github.com/cstkpk" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a className="white-text" href="https://www.linkedin.com/in/cara-sunberg" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a className="white-text" href="mailto:cnsunberg@gmail.com">Email</a></li>
                 </ul>
             </div>
         }

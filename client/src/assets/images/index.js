@@ -7,10 +7,5 @@ module.exports = {
     },
     iceland4: {
         image: require("./Iceland4.jpg")
-    },
-    chooseAdventure: {
-        image: require("./solarsystem.png"),
-        link: "https://solarsystemadventure.herokuapp.com",
-        title: "Choose Your Own Adventure: The Solar System"
     }
 };
