@@ -1,28 +1,29 @@
 import React from "react";
 import { Footer } from "react-materialize";
+import "./style.css";
 
 export default function FooterComp() {
     return (
 
         <Footer
-        copyrights={<p>Made by Cara Sunberg</p>}
-        links={
-            <div>
-                <h5>Connect</h5>
-                <ul>
-                    <li><a className="white-text" href="https://github.com/cstkpk" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a className="white-text" href="https://www.linkedin.com/in/cara-sunberg" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    <li><a className="white-text" href="mailto:cnsunberg@gmail.com">Email</a></li>
-                </ul>
-            </div>
-        }
-        className="grey darken-4 z-depth-3"
+            copyrights="Made by Cara Sunberg"
+            links={
+                <div>
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a className="white-text" href="https://github.com/cstkpk" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a className="white-text" href="https://www.linkedin.com/in/cara-sunberg" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a className="white-text" href="mailto:cnsunberg@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            }
+            className="grey darken-4 z-depth-3"
         >
             <h5 className="white-text">Welcome!</h5>
             <p className="grey-text text-lighten-4">This portfolio is a work in progress. Please check back soon for improvements!</p>
         </Footer>
 
-/* <Footer class="page-footer grey darken-4 z-depth-3">
+/* <div class="page-footer grey darken-4 z-depth-3">
     <div class="container">
         <div class="row">
         <div class="col l6 s12">
@@ -53,7 +54,7 @@ export default function FooterComp() {
         Made by <a class="brown-text text-lighten-3" href="#">Cara Sunberg</a>
         </div>
     </div>
-</Footer> */
+</div> */
 
 
     );
