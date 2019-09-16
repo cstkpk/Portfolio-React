@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Section, Row, Col, Divider } from "react-materialize";
 import data from "../../assets/images/portfolioData.js";
+import "./style.css";
 
 export default function PortfolioLinks() {
     return (
@@ -22,6 +23,14 @@ export default function PortfolioLinks() {
                                 </div>
                             </a> 
                         ))}
+                        {/* {data.map(data => (
+                        <Card 
+                            header={<CardTitle className="black-text">{data.title}</CardTitle>}
+                            actions={
+                                <a href={data.link}><img src={data.image} className="responsive-img"/></a>
+                            }
+                        />
+                        ))} */}
                     </Col>
                 </Row>
             </Section>

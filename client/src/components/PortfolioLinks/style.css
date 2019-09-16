@@ -1,0 +1,8 @@
+/* Text block for all images */
+.text-block {
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    padding: 0.03px;
+    /* font-weight: bold; */
+}
