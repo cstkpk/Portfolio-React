@@ -14,6 +14,13 @@ module.exports = [
         alt: "Harry Potter Story screenshot"
     },
     {
+        id: 9,
+        image: require("./clicky.png"),
+        link: "https://rememberthevegetable.herokuapp.com/",
+        title: "Memory Game",
+        alt: "Memory game screenshot"
+    },
+    {
         id: 3,
         image: require("./trivia.png"),
         link: "https://cstkpk.github.io/TriviaGame/",
