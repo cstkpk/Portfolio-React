@@ -24,12 +24,12 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "nodemon": "^1.19.4"
   },
   "homepage": "https://github.com/cstkpk/Portfolio-React#readme",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.10.0"
   }
 }
